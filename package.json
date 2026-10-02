@@ -1,17 +1,20 @@
 {
-  "name": "chai_aur_daru",
-  "version": "1.0.0",
-  "description": "i am study with Ajeet",
-  "keywords": [
-    "javascript",
-    "backend",
-    "chai"
-  ],
-  "license": "ISC",
-  "author": "Ajeet",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "chai_aur_daru",
+    "version": "1.0.0",
+    "description": "i am study with Ajeet",
+    "type": "commonjs",
+    "keywords": [
+        "javascript",
+        "backend",
+        "chai"
+    ],
+    "license": "ISC",
+    "author": "Ajeet",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.jsgit"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
 }
