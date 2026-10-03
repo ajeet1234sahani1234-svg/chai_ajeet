@@ -2,7 +2,7 @@
     "name": "chai_aur_daru",
     "version": "1.0.0",
     "description": "i am study with Ajeet",
-    "type": "commonjs",
+    "type": "module",
     "keywords": [
         "javascript",
         "backend",
@@ -12,10 +12,14 @@
     "author": "Ajeet",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon src/index.jsgit"
+        "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
     },
     "devDependencies": {
         "nodemon": "^3.1.14",
         "prettier": "^3.9.9"
+    },
+    "dependencies": {
+        "dotenv": "^18.0.5",
+        "mongoose": "^9.10.4"
     }
 }
